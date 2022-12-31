@@ -1,3 +1,9 @@
+body{
+    background-image: url("img.png");
+    background-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -19,3 +25,39 @@
 }
 
 
+
+.text{
+    padding: 100px 30px;
+    }
+    .main{
+    font-size: 50px;
+    line-height: 0%;
+    }
+    .bold{
+        font-size: 100px;
+        line-height: 0%;
+        font-weight: bold;
+     
+    }
+    .sub{
+        font-size: 20px;
+        line-height: 0%;
+       
+    }
+    .box{
+        display: flex;
+        padding-top: 20px;
+    }
+    .box > one{
+        padding: 10px 20px;
+        line-height: 10px;
+        background-color: black;
+        color: white;
+    }
+    .box > two{
+        padding: 10px 20px;
+        line-height: 10px;
+    }
+    .box> two:hover{
+    text-decoration: underline;
+    }
