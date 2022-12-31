@@ -1,6 +1,6 @@
 body{
-    background-image: url("img.png");
-    background-size: 150%;
+    background-image: url("Media/media.png");
+    background-size: 135%;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -26,38 +26,42 @@ body{
 
 
 
-.text{
-    padding: 100px 30px;
-    }
+
     .main{
-    font-size: 50px;
-    line-height: 0%;
+    font-size: 40px;
+    line-height: 1px;
+    padding-top: 100px;
+    list-style-type: none;
+
     }
     .bold{
         font-size: 100px;
-        line-height: 0%;
+        line-height: 1px;
         font-weight: bold;
+        list-style-type: none;
      
     }
     .sub{
-        font-size: 20px;
-        line-height: 0%;
+        font-size: 15px;
+        line-height: 1px;
+        list-style-type: none;
        
     }
     .box{
         display: flex;
-        padding-top: 20px;
+        padding-top: 15px;
+        padding-right: 20px;
     }
-    .box > one{
-        padding: 10px 20px;
+    .one{
+        padding: 20px 20px;
         line-height: 10px;
         background-color: black;
         color: white;
     }
-    .box > two{
-        padding: 10px 20px;
+    .two{
+        padding: 20px 20px;
         line-height: 10px;
     }
-    .box> two:hover{
+    .two:hover{
     text-decoration: underline;
     }
