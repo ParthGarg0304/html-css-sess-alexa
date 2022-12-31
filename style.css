@@ -1,3 +1,9 @@
+body{
+    background-image: url("Media/media.png");
+    background-size: 135%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -17,3 +23,45 @@
 .menu > li:hover{
     font-weight: 600;
 }
+
+
+
+
+    .main{
+    font-size: 40px;
+    line-height: 1px;
+    padding-top: 100px;
+    list-style-type: none;
+
+    }
+    .bold{
+        font-size: 100px;
+        line-height: 1px;
+        font-weight: bold;
+        list-style-type: none;
+     
+    }
+    .sub{
+        font-size: 15px;
+        line-height: 1px;
+        list-style-type: none;
+       
+    }
+    .box{
+        display: flex;
+        padding-top: 15px;
+        padding-right: 20px;
+    }
+    .one{
+        padding: 20px 20px;
+        line-height: 10px;
+        background-color: black;
+        color: white;
+    }
+    .two{
+        padding: 20px 20px;
+        line-height: 10px;
+    }
+    .two:hover{
+    text-decoration: underline;
+    }
